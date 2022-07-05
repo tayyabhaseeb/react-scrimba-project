@@ -4,7 +4,8 @@ export default function Nav() {
   return (
     <div className="nav--container">
       <nav>
-        <img src="../public/images/world.png" width="40px" />
+        <img src="../images/world.png" className="nav--img" />
+        <span>my travel journal .</span>
       </nav>
     </div>
   );
